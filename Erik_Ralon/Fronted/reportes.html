@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes - Evaluación UPA</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reportes de Usuarios</h1>
+            <a href="index.html" class="back-link">← Volver al inicio</a>
+        </header>
+        <main>
+            <div class="reports-container">
+                <div class="reports-list">
+                    <h2>Seleccione un Reporte</h2>
+                    <ul>
+                        <li><a href="#" data-report="todos">Todos los Usuarios</a></li>
+                        <li><a href="#" data-report="hoy">Usuarios Creados Hoy</a></li>
+                        <li><a href="#" data-report="ayer">Usuarios Creados Ayer</a></li>
+                    </ul>
+                </div>
+                <div class="report-content">
+                    <h2 id="report-title">Contenido del Reporte</h2>
+                    <div id="report-data">
+                        <p class="select-message">Seleccione un reporte para ver su contenido</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Evaluación para Informática UPA - 2025</p>
+        </footer>
+    </div>
+    <script src="js/reportes.js"></script>
+</body>
+</html>
